@@ -1,0 +1,1179 @@
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "measurereport",
+            "resource": {
+                "resourceType": "MeasureReport",
+                "contained": [
+                    {
+                        "resourceType": "Bundle",
+                        "id": "e69433f6-570c-45af-8e5b-d7ed83e96385",
+                        "type": "collection",
+                        "entry": [
+                            {
+                                "fullUrl": "212382f3-b641-4960-9a2f-fc9522f6a288",
+                                "resource": {
+                                    "resourceType": "List",
+                                    "id": "212382f3-b641-4960-9a2f-fc9522f6a288",
+                                    "title": "initial-population",
+                                    "entry": [
+                                        {
+                                            "item": {
+                                                "reference": "#Patient/Patient-411/_history/1"
+                                            }
+                                        },
+                                        {
+                                            "item": {
+                                                "reference": "#Encounter/Encounter-4150/_history/1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "fullUrl": "Patient/Patient-411/_history/1",
+                                "resource": {
+                                    "resourceType": "Patient",
+                                    "id": "Patient-411",
+                                    "meta": {
+                                        "versionId": "1",
+                                        "lastUpdated": "2019-05-02T10:09:57.236+00:00",
+                                        "profile": [
+                                            "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-patient"
+                                        ]
+                                    },
+                                    "text": {
+                                        "status": "generated",
+                                        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Pauline Sellers <b>HURST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>000000411</td></tr><tr><td>Address</td><td><span>955 NW Apple Place </span><br/><span>Tecumseh </span><span>MI </span></td></tr><tr><td>Date of birth</td><td><span>18 June 1960</span></td></tr></tbody></table></div>"
+                                    },
+                                    "extension": [
+                                        {
+                                            "url": "http://mihin.org/extension/copyright",
+                                            "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+                                            "valueCodeableConcept": {
+                                                "coding": [
+                                                    {
+                                                        "system": "http://hl7.org/fhir/v3/Race",
+                                                        "code": "2056-0",
+                                                        "display": "Black"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+                                            "valueCodeableConcept": {
+                                                "coding": [
+                                                    {
+                                                        "system": "http://hl7.org/fhir/v3/Ethnicity",
+                                                        "code": "2186-5",
+                                                        "display": "Not Hispanic or Latino"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+                                            "valueCodeableConcept": {
+                                                "coding": [
+                                                    {
+                                                        "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                                                        "code": "1007",
+                                                        "display": "Atheism"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "identifier": [
+                                        {
+                                            "use": "official",
+                                            "type": {
+                                                "coding": [
+                                                    {
+                                                        "system": "http://hl7.org/fhir/identifier-type",
+                                                        "code": "SB",
+                                                        "display": "Social Beneficiary Identifier"
+                                                    }
+                                                ]
+                                            },
+                                            "system": "http://hl7.org/fhir/sid/us-ssn",
+                                            "value": "000000411"
+                                        },
+                                        {
+                                            "use": "official",
+                                            "type": {
+                                                "coding": [
+                                                    {
+                                                        "system": "http://hl7.org/fhir/identifier-type",
+                                                        "code": "SB",
+                                                        "display": "Social Beneficiary Identifier"
+                                                    }
+                                                ]
+                                            },
+                                            "system": "http://mihin.org/fhir/cks",
+                                            "value": "b02c8d5982be41e1b60945492508708c"
+                                        }
+                                    ],
+                                    "active": true,
+                                    "name": [
+                                        {
+                                            "family": "Hurst",
+                                            "given": [
+                                                "Pauline",
+                                                "Sellers"
+                                            ]
+                                        }
+                                    ],
+                                    "telecom": [
+                                        {
+                                            "system": "phone",
+                                            "value": "517-555-7256",
+                                            "use": "home"
+                                        },
+                                        {
+                                            "system": "phone",
+                                            "value": "517-555-4215",
+                                            "use": "mobile"
+                                        }
+                                    ],
+                                    "gender": "female",
+                                    "birthDate": "1960-06-18",
+                                    "address": [
+                                        {
+                                            "use": "home",
+                                            "type": "postal",
+                                            "line": [
+                                                "955 NW Apple Place"
+                                            ],
+                                            "city": "Tecumseh",
+                                            "district": "Lenawee County",
+                                            "state": "MI",
+                                            "postalCode": "49286"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "fullUrl": "c029fcdb-471d-4921-b684-25b29a185285",
+                                "resource": {
+                                    "resourceType": "List",
+                                    "id": "c029fcdb-471d-4921-b684-25b29a185285",
+                                    "title": "numerator",
+                                    "entry": [
+                                        {
+                                            "item": {
+                                                "reference": "#Procedure/Procedure-33501/_history/1"
+                                            }
+                                        },
+                                        {
+                                            "item": {
+                                                "reference": "#Procedure/Procedure-77589/_history/1"
+                                            }
+                                        },
+                                        {
+                                            "item": {
+                                                "reference": "#Procedure/Procedure-117420/_history/1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "fullUrl": "Encounter/Encounter-4150/_history/1",
+                                "resource": {
+                                    "resourceType": "Encounter",
+                                    "id": "Encounter-4150",
+                                    "meta": {
+                                        "versionId": "1",
+                                        "lastUpdated": "2019-05-02T13:40:13.680+00:00",
+                                        "profile": [
+                                            "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-encounter"
+                                        ]
+                                    },
+                                    "extension": [
+                                        {
+                                            "url": "http://mihin.org/extension/copyright",
+                                            "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                                        }
+                                    ],
+                                    "status": "finished",
+                                    "class": {
+                                        "system": "http://hl7.org/fhir/encounter-class",
+                                        "code": "inpatient",
+                                        "display": "inpatient"
+                                    },
+                                    "type": [
+                                        {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "code": "32485007",
+                                                    "display": "Hospital admission"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "subject": {
+                                        "reference": "Patient/Patient-411",
+                                        "display": "Pauline Sellers Hurst"
+                                    },
+                                    "participant": [
+                                        {
+                                            "period": {
+                                                "start": "2019-03-22T22:04:00-04:00",
+                                                "end": "2019-03-23T02:04:00-04:00"
+                                            },
+                                            "individual": {
+                                                "reference": "Practitioner/Practitioner-10",
+                                                "display": "Dean May Christian MD"
+                                            }
+                                        }
+                                    ],
+                                    "period": {
+                                        "start": "2019-03-22T22:04:00-04:00",
+                                        "end": "2019-03-23T02:04:00-04:00"
+                                    },
+                                    "reason": [
+                                        {
+                                            "coding": [
+                                                {
+                                                    "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                                    "code": "C18.0"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "location": [
+                                        {
+                                            "location": {
+                                                "reference": "Location/Location-111",
+                                                "display": "Windward General Hospital"
+                                            }
+                                        }
+                                    ],
+                                    "serviceProvider": {
+                                        "reference": "Organization/Organization-1004",
+                                        "display": "Windward General Hospital"
+                                    }
+                                }
+                            },
+                            {
+                                "fullUrl": "Procedure/Procedure-33501/_history/1",
+                                "resource": {
+                                    "resourceType": "Procedure",
+                                    "id": "Procedure-33501",
+                                    "meta": {
+                                        "versionId": "1",
+                                        "lastUpdated": "2019-05-02T13:40:17.514+00:00",
+                                        "profile": [
+                                            "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-procedure"
+                                        ]
+                                    },
+                                    "extension": [
+                                        {
+                                            "url": "http://mihin.org/extension/copyright",
+                                            "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                                        }
+                                    ],
+                                    "identifier": [
+                                        {
+                                            "use": "official",
+                                            "system": "mihin.org/fhir/sid/elementId",
+                                            "value": "3bd2c7d9-e827-444d-a86c-13dd0ff04ddb"
+                                        }
+                                    ],
+                                    "status": "completed",
+                                    "code": {
+                                        "coding": [
+                                            {
+                                                "system": "http://www.ama-assn.org/go/cpt",
+                                                "code": "77066"
+                                            }
+                                        ]
+                                    },
+                                    "subject": {
+                                        "reference": "Patient/Patient-411",
+                                        "display": "Pauline Sellers Hurst"
+                                    },
+                                    "context": {
+                                        "reference": "Encounter/Encounter-439",
+                                        "display": "Ambulatory_Encounter"
+                                    },
+                                    "performedPeriod": {
+                                        "start": "2017-01-07T00:00:00-05:00",
+                                        "end": "2017-01-07T00:00:00-05:00"
+                                    },
+                                    "performer": [
+                                        {
+                                            "actor": {
+                                                "reference": "Practitioner/Practitioner-7",
+                                                "display": "Judy Wallace Blackwell MD"
+                                            }
+                                        }
+                                    ],
+                                    "location": {
+                                        "reference": "Location/Location-111",
+                                        "display": "Windward General Hospital"
+                                    }
+                                }
+                            },
+                            {
+                                "fullUrl": "Procedure/Procedure-77589/_history/1",
+                                "resource": {
+                                    "resourceType": "Procedure",
+                                    "id": "Procedure-77589",
+                                    "meta": {
+                                        "versionId": "1",
+                                        "lastUpdated": "2019-05-02T13:39:31.111+00:00",
+                                        "profile": [
+                                            "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-procedure"
+                                        ]
+                                    },
+                                    "extension": [
+                                        {
+                                            "url": "http://mihin.org/extension/copyright",
+                                            "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                                        }
+                                    ],
+                                    "identifier": [
+                                        {
+                                            "use": "official",
+                                            "system": "mihin.org/fhir/sid/elementId",
+                                            "value": "66feec6e-6473-45d4-84d7-268731830e83"
+                                        }
+                                    ],
+                                    "status": "completed",
+                                    "code": {
+                                        "coding": [
+                                            {
+                                                "system": "http://www.ama-assn.org/go/cpt",
+                                                "code": "77065"
+                                            }
+                                        ]
+                                    },
+                                    "subject": {
+                                        "reference": "Patient/Patient-411",
+                                        "display": "Pauline Sellers Hurst"
+                                    },
+                                    "context": {
+                                        "reference": "Encounter/Encounter-2256",
+                                        "display": "Ambulatory_Encounter"
+                                    },
+                                    "performedPeriod": {
+                                        "start": "2018-02-04T00:00:00-05:00",
+                                        "end": "2018-02-04T00:00:00-05:00"
+                                    },
+                                    "performer": [
+                                        {
+                                            "actor": {
+                                                "reference": "Practitioner/Practitioner-1",
+                                                "display": "Hilda Ellen Davidson MD"
+                                            }
+                                        }
+                                    ],
+                                    "location": {
+                                        "reference": "Location/Location-111",
+                                        "display": "Windward General Hospital"
+                                    }
+                                }
+                            },
+                            {
+                                "fullUrl": "Procedure/Procedure-117420/_history/1",
+                                "resource": {
+                                    "resourceType": "Procedure",
+                                    "id": "Procedure-117420",
+                                    "meta": {
+                                        "versionId": "1",
+                                        "lastUpdated": "2019-05-02T13:39:58.806+00:00",
+                                        "profile": [
+                                            "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-procedure"
+                                        ]
+                                    },
+                                    "extension": [
+                                        {
+                                            "url": "http://mihin.org/extension/copyright",
+                                            "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                                        }
+                                    ],
+                                    "identifier": [
+                                        {
+                                            "use": "official",
+                                            "system": "mihin.org/fhir/sid/elementId",
+                                            "value": "2e645242-1c19-4d3f-8987-52c456ba881a"
+                                        }
+                                    ],
+                                    "status": "completed",
+                                    "code": {
+                                        "coding": [
+                                            {
+                                                "system": "http://www.ama-assn.org/go/cpt",
+                                                "code": "77066"
+                                            }
+                                        ]
+                                    },
+                                    "subject": {
+                                        "reference": "Patient/Patient-411",
+                                        "display": "Pauline Sellers Hurst"
+                                    },
+                                    "context": {
+                                        "reference": "Encounter/Encounter-3989",
+                                        "display": "Ambulatory_Encounter"
+                                    },
+                                    "performedPeriod": {
+                                        "start": "2019-03-04T00:00:00-05:00",
+                                        "end": "2019-03-04T00:00:00-05:00"
+                                    },
+                                    "performer": [
+                                        {
+                                            "actor": {
+                                                "reference": "Practitioner/Practitioner-6",
+                                                "display": "Helen Christian Robles MD"
+                                            }
+                                        }
+                                    ],
+                                    "location": {
+                                        "reference": "Location/Location-111",
+                                        "display": "Windward General Hospital"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "complete",
+                "type": "individual",
+                "measure": {
+                    "reference": "Measure/measure-bcs"
+                },
+                "patient": {
+                    "reference": "Patient/Patient-411"
+                },
+                "period": {
+                    "start": "2018-01-01T00:00:00+00:00",
+                    "end": "2018-12-31T00:00:00+00:00"
+                },
+                "evaluatedResources": {
+                    "reference": "#e69433f6-570c-45af-8e5b-d7ed83e96385"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "Patient-411",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T10:09:57.236+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-patient"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Pauline Sellers <b>HURST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>000000411</td></tr><tr><td>Address</td><td><span>955 NW Apple Place </span><br/><span>Tecumseh </span><span>MI </span></td></tr><tr><td>Date of birth</td><td><span>18 June 1960</span></td></tr></tbody></table></div>"
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v3/Race",
+                                    "code": "2056-0",
+                                    "display": "Black"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v3/Ethnicity",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                                    "code": "1007",
+                                    "display": "Atheism"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/identifier-type",
+                                    "code": "SB",
+                                    "display": "Social Beneficiary Identifier"
+                                }
+                            ]
+                        },
+                        "system": "http://hl7.org/fhir/sid/us-ssn",
+                        "value": "000000411"
+                    },
+                    {
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/identifier-type",
+                                    "code": "SB",
+                                    "display": "Social Beneficiary Identifier"
+                                }
+                            ]
+                        },
+                        "system": "http://mihin.org/fhir/cks",
+                        "value": "b02c8d5982be41e1b60945492508708c"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Hurst",
+                        "given": [
+                            "Pauline",
+                            "Sellers"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "517-555-7256",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "517-555-4215",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1960-06-18",
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "postal",
+                        "line": [
+                            "955 NW Apple Place"
+                        ],
+                        "city": "Tecumseh",
+                        "district": "Lenawee County",
+                        "state": "MI",
+                        "postalCode": "49286"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "Encounter-4150",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:40:13.680+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-encounter"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://hl7.org/fhir/encounter-class",
+                    "code": "inpatient",
+                    "display": "inpatient"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "32485007",
+                                "display": "Hospital admission"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2019-03-22T22:04:00-04:00",
+                            "end": "2019-03-23T02:04:00-04:00"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/Practitioner-10",
+                            "display": "Dean May Christian MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2019-03-22T22:04:00-04:00",
+                    "end": "2019-03-23T02:04:00-04:00"
+                },
+                "reason": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "C18.0"
+                            }
+                        ]
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/Location-111",
+                            "display": "Windward General Hospital"
+                        }
+                    }
+                ],
+                "serviceProvider": {
+                    "reference": "Organization/Organization-1004",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "Organization-1004",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T10:09:21.742+00:00"
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://www.hl7.org/oid/",
+                        "value": "1.2.3.4.1004"
+                    },
+                    {
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "TAX",
+                                    "display": "Tax ID number"
+                                }
+                            ]
+                        },
+                        "system": "http://hl7.org/fhir/sid/us-tax",
+                        "value": "000001004"
+                    }
+                ],
+                "active": true,
+                "name": "Windward General Hospital",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "517-555-6892",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "730 E Jefferson Road"
+                        ],
+                        "city": "Brooklyn",
+                        "district": "Jackson County",
+                        "state": "MI",
+                        "postalCode": "49230"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "Procedure-33501",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:40:17.514+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-procedure"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "mihin.org/fhir/sid/elementId",
+                        "value": "3bd2c7d9-e827-444d-a86c-13dd0ff04ddb"
+                    }
+                ],
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "77066"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "context": {
+                    "reference": "Encounter/Encounter-439",
+                    "display": "Ambulatory_Encounter"
+                },
+                "performedPeriod": {
+                    "start": "2017-01-07T00:00:00-05:00",
+                    "end": "2017-01-07T00:00:00-05:00"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/Practitioner-7",
+                            "display": "Judy Wallace Blackwell MD"
+                        }
+                    }
+                ],
+                "location": {
+                    "reference": "Location/Location-111",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "Encounter-439",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:40:17.514+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-encounter"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://hl7.org/fhir/encounter-class",
+                    "code": "ambulatory",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://www.ama-assn.org/go/cpt",
+                                "code": "99205",
+                                "display": "Combined Office Visits"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2017-01-07T00:00:00-05:00",
+                            "end": "2017-01-07T00:00:00-05:00"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/Practitioner-7",
+                            "display": "Judy Wallace Blackwell MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2017-01-07T00:00:00-05:00",
+                    "end": "2017-01-07T00:00:00-05:00"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/Location-111",
+                            "display": "Windward General Hospital"
+                        }
+                    }
+                ],
+                "serviceProvider": {
+                    "reference": "Organization/Organization-1004",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Location",
+                "id": "Location-111",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T10:09:21.742+00:00"
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://www.hl7.org/oid/",
+                        "value": "1.2.3.4.111"
+                    }
+                ],
+                "status": "active",
+                "name": "Windward General Hospital",
+                "mode": "instance",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "(517) 555-5049",
+                        "use": "work"
+                    }
+                ],
+                "address": {
+                    "use": "work",
+                    "type": "physical",
+                    "line": [
+                        "730 E Jefferson Road"
+                    ],
+                    "city": "Brooklyn",
+                    "district": "Jackson County",
+                    "state": "MI",
+                    "postalCode": "49230"
+                },
+                "physicalType": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/location-physical-type",
+                            "code": "bu",
+                            "display": "Building"
+                        }
+                    ]
+                },
+                "position": {
+                    "longitude": -84.23623724358164,
+                    "latitude": 42.10535293104671
+                },
+                "managingOrganization": {
+                    "reference": "Organization/Organization-1004",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "Procedure-77589",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:39:31.111+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-procedure"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "mihin.org/fhir/sid/elementId",
+                        "value": "66feec6e-6473-45d4-84d7-268731830e83"
+                    }
+                ],
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "77065"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "context": {
+                    "reference": "Encounter/Encounter-2256",
+                    "display": "Ambulatory_Encounter"
+                },
+                "performedPeriod": {
+                    "start": "2018-02-04T00:00:00-05:00",
+                    "end": "2018-02-04T00:00:00-05:00"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/Practitioner-1",
+                            "display": "Hilda Ellen Davidson MD"
+                        }
+                    }
+                ],
+                "location": {
+                    "reference": "Location/Location-111",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "Encounter-2256",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:39:31.111+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-encounter"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://hl7.org/fhir/encounter-class",
+                    "code": "ambulatory",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "\ufeff185463005",
+                                "display": "Combined Office Visits"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2018-02-04T00:00:00-05:00",
+                            "end": "2018-02-04T00:00:00-05:00"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/Practitioner-1",
+                            "display": "Hilda Ellen Davidson MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2018-02-04T00:00:00-05:00",
+                    "end": "2018-02-04T00:00:00-05:00"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/Location-111",
+                            "display": "Windward General Hospital"
+                        }
+                    }
+                ],
+                "serviceProvider": {
+                    "reference": "Organization/Organization-1004",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "Procedure-117420",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:39:58.806+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-procedure"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "mihin.org/fhir/sid/elementId",
+                        "value": "2e645242-1c19-4d3f-8987-52c456ba881a"
+                    }
+                ],
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "77066"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "context": {
+                    "reference": "Encounter/Encounter-3989",
+                    "display": "Ambulatory_Encounter"
+                },
+                "performedPeriod": {
+                    "start": "2019-03-04T00:00:00-05:00",
+                    "end": "2019-03-04T00:00:00-05:00"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/Practitioner-6",
+                            "display": "Helen Christian Robles MD"
+                        }
+                    }
+                ],
+                "location": {
+                    "reference": "Location/Location-111",
+                    "display": "Windward General Hospital"
+                }
+            }
+        },
+        {
+            "name": "resource",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "Encounter-3989",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2019-05-02T13:39:58.806+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-encounter"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://mihin.org/extension/copyright",
+                        "valueString": "Copyright 2014-2018 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://hl7.org/fhir/encounter-class",
+                    "code": "ambulatory",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://www.ama-assn.org/go/cpt",
+                                "code": "99204",
+                                "display": "Combined Office Visits"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/Patient-411",
+                    "display": "Pauline Sellers Hurst"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2019-03-04T00:00:00-05:00",
+                            "end": "2019-03-04T00:00:00-05:00"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/Practitioner-6",
+                            "display": "Helen Christian Robles MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2019-03-04T00:00:00-05:00",
+                    "end": "2019-03-04T00:00:00-05:00"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/Location-111",
+                            "display": "Windward General Hospital"
+                        }
+                    }
+                ],
+                "serviceProvider": {
+                    "reference": "Organization/Organization-1004",
+                    "display": "Windward General Hospital"
+                }
+            }
+        }
+    ]
+}
